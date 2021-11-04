@@ -12,6 +12,7 @@ import android.hardware.Camera;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -299,25 +300,33 @@ public class Camera_Activity extends AppCompatActivity {
 
             button.setEnabled(true);
             button.setText("텍스트 인식");
+
         }
     }
 
     public void textClassification(String text) {
         if (text.contains("플") || text.contains("라") || text.contains("스") || text.contains("틱")) {
             //TODO: 플라스틱 정보 창 띄우기
+            Toast.makeText(Camera_Activity.this, "plastic", Toast.LENGTH_SHORT).show();
         } else if (text.contains("비") || text.contains("닐")) {
             //TODO: 비닐 정보 창 띄우기
+            Toast.makeText(Camera_Activity.this, "vinyl", Toast.LENGTH_SHORT).show();
         } else if (text.contains("종") || text.contains("이")) {
             //TODO: 종이 정보 창 띄우기
+            Toast.makeText(Camera_Activity.this, "paper", Toast.LENGTH_SHORT).show();
         } else if (text.contains("캔")) {
             //TODO: 캔 정보 창 띄우기
+            Toast.makeText(Camera_Activity.this, "can", Toast.LENGTH_SHORT).show();
         } else if (text.contains("페") || text.contains("트")) {
             //TODO: 페트 정보 창 띄우기
+            Toast.makeText(Camera_Activity.this, "pet", Toast.LENGTH_SHORT).show();
         } else if (text.contains("유") || text.contains("리")) {
             //TODO: 유리 정보 창 띄우기
+            Toast.makeText(Camera_Activity.this, "glass", Toast.LENGTH_SHORT).show();
         } else {
             //실패
             Toast.makeText(Camera_Activity.this, "다시 찍어보세요!", Toast.LENGTH_LONG).show();
+            Log.v("camer",text);
             return;
         }
     }
