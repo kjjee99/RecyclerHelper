@@ -1,4 +1,4 @@
-package com.yu.opencv_test.drawer;
+package com.yu.opencv_test;
 
 import android.os.Bundle;
 

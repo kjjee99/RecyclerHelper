@@ -1,4 +1,4 @@
-package com.yu.opencv_test.drawer;
+package com.yu.opencv_test;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -11,7 +11,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 
-import org.techtown.drawer.Adapter.VPAdapter;
+import com.yu.opencv_test.drawer.Adapter.VPAdapter;
 
 public class Challenge_fragment extends Fragment {
     private static final String TAG = "Challenge_fragment";

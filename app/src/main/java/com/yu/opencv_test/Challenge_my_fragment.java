@@ -1,4 +1,4 @@
-package com.yu.opencv_test.drawer;
+package com.yu.opencv_test;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -11,9 +11,9 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.techtown.drawer.Adapter.ChallengeAdapter;
-import org.techtown.drawer.Adapter.ChallengeItemClickListener;
-import org.techtown.drawer.VO.ChallengeData;
+import com.yu.opencv_test.drawer.Adapter.ChallengeAdapter;
+import com.yu.opencv_test.drawer.Adapter.ChallengeItemClickListener;
+import com.yu.opencv_test.drawer.VO.ChallengeData;
 
 import java.util.ArrayList;
 import java.util.Set;

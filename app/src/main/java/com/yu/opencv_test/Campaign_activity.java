@@ -1,4 +1,4 @@
-package com.yu.opencv_test.drawer;
+package com.yu.opencv_test;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -14,9 +14,9 @@ import com.kakao.kakaolink.v2.KakaoLinkResponse;
 import com.kakao.kakaolink.v2.KakaoLinkService;
 import com.kakao.network.ErrorResult;
 import com.kakao.network.callback.ResponseCallback;
-
-import org.techtown.drawer.Adapter.Campaign_adapter;
-import org.techtown.drawer.VO.CampaignData;
+import com.yu.opencv_test.R;
+import com.yu.opencv_test.drawer.Adapter.Campaign_adapter;
+import com.yu.opencv_test.drawer.VO.CampaignData;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -9,8 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.techtown.drawer.R;
-import org.techtown.drawer.VO.CampaignData;
+import com.yu.opencv_test.R;
+import com.yu.opencv_test.drawer.VO.CampaignData;
 
 import java.util.ArrayList;
 

@@ -19,11 +19,11 @@ using namespace cv;
 
 extern "C"
 JNIEXPORT void JNICALL
-Java_com_yu_opencv_1test_MainActivity_templateMatchingJNI(JNIEnv *env, jobject thiz,
-                                                          jlong template_image,
-                                                          jlong input_image, jlong output_image,
-                                                          jint th1,
-                                                          jint th2) {
+Java_com_yu_opencv_1test_Camera_1Activity_templateMatchingJNI(JNIEnv *env, jobject thiz,
+                                                              jlong template_image,
+                                                              jlong input_image, jlong output_image,
+                                                              jint th1,
+                                                              jint th2) {
 
     Mat &templateMat = *(Mat *) template_image;
     Mat &inputMat = *(Mat *) input_image;
@@ -65,7 +65,7 @@ Java_com_yu_opencv_1test_MainActivity_templateMatchingJNI(JNIEnv *env, jobject t
 
 extern "C"
 JNIEXPORT void JNICALL
-Java_com_yu_opencv_1test_MainActivity_extractROIJNI(JNIEnv *env, jobject thiz, jlong input_image, jlong output_image, jlong text_image) {
+Java_com_yu_opencv_1test_Camera_1Activity_extractROIJNI(JNIEnv *env, jobject thiz, jlong input_image, jlong output_image, jlong text_image) {
     Mat &inputMat = *(Mat *) input_image;
     Mat &outputMat = *(Mat *) output_image;
     Mat &textMat = *(Mat *) text_image;

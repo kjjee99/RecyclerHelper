@@ -12,8 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.jetbrains.annotations.NotNull;
-import org.techtown.drawer.R;
-import org.techtown.drawer.VO.ChallengeData;
+
+import com.yu.opencv_test.R;
+import com.yu.opencv_test.drawer.VO.ChallengeData;
 
 import java.util.ArrayList;
 
