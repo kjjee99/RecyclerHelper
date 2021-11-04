@@ -12,10 +12,8 @@ import android.hardware.Camera;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -23,6 +21,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
 import com.googlecode.tesseract.android.TessBaseAPI;
+import com.yu.opencv_test.drawer.CameraSurfaceView;
 
 import org.jetbrains.annotations.NotNull;
 import org.opencv.android.OpenCVLoader;

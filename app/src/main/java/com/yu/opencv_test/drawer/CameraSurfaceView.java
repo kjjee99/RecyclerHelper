@@ -1,4 +1,4 @@
-package com.yu.opencv_test;
+package com.yu.opencv_test.drawer;
 
 import android.content.Context;
 import android.content.res.Configuration;
